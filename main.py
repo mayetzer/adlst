@@ -1,6 +1,10 @@
 import sqlite3
 
+# Auth: Zerare Tamay
+
+# Database ismi
 DB_FILE = "adlst.db"
+
 
 def db_baglanti():
     conn = sqlite3.connect(DB_FILE)
