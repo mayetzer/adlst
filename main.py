@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_FILE = "adres_defteri.db"
+DB_FILE = "adlst.db"
 
 def db_baglanti():
     conn = sqlite3.connect(DB_FILE)
